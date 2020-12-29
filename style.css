@@ -1,0 +1,16 @@
+.michiElectrico {
+  background-image: url(img/92fc69d91cd912d3ad1ded9986eac794.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 800px;
+}
+
+.letrasGrandes1 {
+  font-size: 20px;
+}
+
+.letrasGrandes {
+  background-color: rgba(0, 0, 0, 0.562);
+  font-size: 20px;
+  padding: 10px;
+}
