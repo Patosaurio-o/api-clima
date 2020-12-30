@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>app del clima</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
   </head>
@@ -13,8 +13,21 @@
         <div class="col-4 offset-3 mb-5 michiElectrico">
           <form class="p-3">
             <div class="col-12 mt-5">
-              <label for="clima" class="form-label text-white letrasGrandes1">Clima:</label>
-              <input type="text" class="form-control" placeholder="Ciudad" id="clima">
+              <label for="clima" class="form-label text-white letrasGrandes1">Clima:</label> 
+              <select class="form-control mt-4">
+                <option value="0">ingresa tu pais</option>
+                <option value="AD">Andorra</option>
+                <option value="AF">Afganistán</option>
+                <option value="AR">Argentina</option>
+                <option value="BB">Barbados</option>
+                <option value="BE">Bélgica</option>
+                <option value="BO">Boliva</option>
+                <option value="CA">Canadá</option>
+                <option value="CO">Colombia</option>
+                <option value="CL">Chile</option>
+                <option value="IR">Irán</option>
+              </select>
+              <input type="text" class="form-control mt-3" placeholder="Ciudad" id="clima">
               <input class="btn btn-primary mt-4 " type="submit" value="buscar">
             </div>
             <div class="col text-white letrasGrandes mt-5" id="informacion">
